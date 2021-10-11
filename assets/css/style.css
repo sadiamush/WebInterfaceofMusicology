@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Oswald', sans-serif;
+}
+             /* header text */
+
+@media only screen and (max-width:360px)
+{
+    .header-para
+    {
+       display:none;
+    }
+}
+
+
+
+                 /* pricing section */
+@media only screen and (max-width:768px)
+{
+    .pricing-col
+    {
+       margin-bottom:5%;
+    }
+}
+@media only screen and (max-width:478px)
+{
+    .pricing-para
+    {
+        display:none;
+    }
+}
+
+                   /* Our statistics */
+.statistics-text{
+    font-size:67px;
+}
+@media only screen and (max-width:500px)
+{
+    .stats-para
+    {
+       display:none;
+    }
+}
+
+
+
+                   /* herbert simon */
+@media only screen and (max-width:522px)
+{
+    .text-break
+    {
+        display:none;
+    }
+}
+
+
+                  /* subscribe section*/
+#subscribe
+{
+  background-color:#e7631c;
+}
+#subscribe-form{
+    width:30%;
+}
+#subscribe-form::placeholder
+{
+    padding-left:3%;
+    border:none;
+    outline:none;
+    border-radius:0px;
+    
+}
+@media only screen and (max-width:496px)
+{
+    .textbreak
+    {
+        display:none;
+    }
+}
+
+
+                 /* footer section */
+.footer-list
+{
+    color:white;
+    text-decoration:none;
+}
+
+
